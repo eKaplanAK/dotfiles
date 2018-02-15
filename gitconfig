@@ -1,0 +1,9 @@
+[push]
+  default = simple
+[merge]
+  ff = true
+[user]
+  name = Evan Kaplan
+  email = evan.kaplan@annkissam.com
+[core]
+	editor = vim
