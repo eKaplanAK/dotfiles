@@ -17,7 +17,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
-Plug 'vim-scripts/tComment’
+Plug 'vim-scripts/tComment'
 Plug 'airblade/vim-gitgutter'
 Plug 'airblade/vim-rooter'
 Plug 'altercation/vim-colors-solarized'
@@ -34,5 +34,5 @@ Plug 'tpope/vim-rsi'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-unimpaired'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes’
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
