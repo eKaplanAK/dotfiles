@@ -96,6 +96,7 @@ export EDITOR=sublime
 
 # Use this to search your Oh-My-Zsh plugins for convenient, pre-set aliases
 alias al='alias | grep'
+alias be='bundle exec'
 
 # jump plugin
 export MARKPATH=$HOME/.marks
