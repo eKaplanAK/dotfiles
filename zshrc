@@ -92,7 +92,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export EDITOR=sublime
+export EDITOR=atom
 
 # Use this to search your Oh-My-Zsh plugins for convenient, pre-set aliases
 alias al='alias | grep'
