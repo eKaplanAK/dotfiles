@@ -93,6 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export EDITOR=atom
+export VISUAL=atom
 
 # Use this to search your Oh-My-Zsh plugins for convenient, pre-set aliases
 alias al='alias | grep'
