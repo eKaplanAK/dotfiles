@@ -37,6 +37,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+nmap 0 ^
+
 " Put these lines at the very end of your vimrc file.
 
 " Load all plugins now.
