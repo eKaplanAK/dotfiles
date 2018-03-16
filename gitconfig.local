@@ -6,4 +6,4 @@
   name = Evan Kaplan
   email = evan.kaplan@annkissam.com
 [core]
-	editor = vim
+  editor = nvim

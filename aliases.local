@@ -1,0 +1,7 @@
+alias vim=nvim
+alias vi=nvim
+alias v=nvim
+
+# Overwrites zsh/configs/editor.zsh in the thoughtbot/dotfiles
+export VISUAL=nvim
+export EDITOR=$VISUAL
