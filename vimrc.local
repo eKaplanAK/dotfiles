@@ -6,6 +6,9 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" Update file when changes are made externally, e.g. with git. 
+set autoread
+
 " Put these lines at the very end of your vimrc file.
 
 " Load all plugins now.
