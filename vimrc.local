@@ -1,6 +1,11 @@
 nmap 0 ^
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
+" Solarized Settings
+syntax enable
+set background=dark
+colorscheme solarized
+
 " Put these lines at the very end of your vimrc file.
 
 " Load all plugins now.
