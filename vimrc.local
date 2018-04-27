@@ -26,6 +26,15 @@ autocmd VimResized * :wincmd =
 nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
 nnoremap <leader>= :wincmd =<cr>
 
+" Use ripgrep for ludicrous speed! Got this from
+" From https://github.com/rjdellecese/dotfiles/blob/master/vimrc.local
+set grepprg=rg\ --color=never
+let g:ackprg = 'rg --vimgrep --smart-case'
+nnoremap \ :Ack!<SPACE>
+
+"Fuzzy find! Mimic Ctrl-P
+nnoremap <C-p> :FZF<CR>
+
 set mouse=a
 
 " Put these lines at the very end of your vimrc file.
