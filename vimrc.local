@@ -17,7 +17,7 @@ set background=dark
 colorscheme solarized
 
 "copy buffer filepath to system clipboard.
-noremap <silent> <leader>% :let @+=expand("%:p")<CR>
+noremap <silent> <leader>% :let @+=expand("%")<CR>
 " Update file when changes are made externally, e.g. with git. 
 set autoread
 
