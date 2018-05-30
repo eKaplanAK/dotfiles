@@ -39,6 +39,11 @@ nnoremap <C-p> :FZF<CR>
 
 set mouse=a
 
+augroup dirvish_config
+  " Maintain fzf Ctrl-P functionality in Dirvish buffers
+  autocmd FileType dirvish nnoremap <silent><buffer> <C-p> :FZF<CR>
+augroup END
+
 " Put these lines at the very end of your vimrc file.
 
 " Load all plugins now.
