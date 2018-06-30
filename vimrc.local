@@ -44,6 +44,9 @@ augroup dirvish_config
   autocmd FileType dirvish nnoremap <silent><buffer> <C-p> :FZF<CR>
 augroup END
 
+"Configure vim slime for copying text to tmux.
+let g:slime_target = "tmux"
+
 " Put these lines at the very end of your vimrc file.
 
 " Load all plugins now.
