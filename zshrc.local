@@ -113,3 +113,4 @@ rm -i $MARKPATH/$1
 }
 
 alias j='jump'
+compdef mosh=ssh
