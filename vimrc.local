@@ -56,6 +56,9 @@ packloadall
 " All messages and errors will be ignored.
 silent! helptags ALL
 
+set foldmethod=indent
+set foldlevel=2
+
 " https://stackoverflow.com/a/48817071/9969493
 " When using `dd` in the quickfix list, remove the item from the quickfix list.
 function! RemoveQFItem()
